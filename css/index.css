@@ -1,0 +1,86 @@
+:root {
+    --oscuro: #212121;
+    --amarillo: #ffc107;
+    --blanco: #fff;
+    --fondo: #bfd7d9;
+    --secundario: #0b747e;
+    --nav: #76a9e7;
+}
+
+html {
+    font-family: 'Krub', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    /**1rem = 10px*/
+    background-color: var(--fondo);
+}
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h1,h2 {
+    text-align: center;
+    font-family: 'Krub', sans-serif;
+}
+p {
+    text-align: center;
+}
+.header {
+    text-align: center;
+    font-size: 2 rem;
+}
+
+.img-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.nav-bg {
+    background-color: var(--nav);
+}
+
+.contenedor {
+    width: 120 rem;
+    margin: 0 auto ;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.nav a:hover {
+    background-color: var(--secundario);
+    color: var(--oscuro);
+}
+
+.subtitle-section {
+    color: brown;
+    text-align: center;
+}
+
+.logo-img {
+    text-align: center;
+    /* Centra el contenido horizontalmente */
+    display: block;
+    /* Hace que el enlace ocupe el ancho completo del contenedor */
+}
+
+.footer {
+    text-align: center;
+}

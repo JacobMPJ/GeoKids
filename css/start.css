@@ -1,0 +1,97 @@
+:root {
+    --oscuro: #212121;
+    --amarillo: #ffc107;
+    --blanco: #fff;
+    --fondo: #bfd7d9;
+    --secundario: #0b747e;
+    --nav: #76a9e7;
+    --gris: #bbb9b9;
+}
+
+html {
+    font-family: 'Krub', sans-serif;
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px;
+    /**1rem = 10px*/
+    background-color: var(--fondo);
+}
+
+.header {
+    text-align: center;
+    font-size: 2 rem;
+}
+.img-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.nav-bg {
+    background-color: var(--nav);
+}
+.contenedor {
+    width: 120 rem;
+    margin: 0 auto ;
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--nav);
+}
+.nav a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.nav a:hover {
+    background-color: var(--secundario);
+    color: var(--oscuro);
+}
+
+
+.main-section { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    color: var(--oscuro);
+    font-size: 2.5rem;
+    width: absolute;
+    height: absolute;
+}
+
+.cnt-central {
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    font-size: 4rem;
+    padding-top: 15rem;
+}
+
+.cnt-comenzar {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border-radius: 5rem;
+}
+.label-comenzar {
+    text-align: center;
+    padding: 3rem;
+}
+
+.btn-comenzar {
+    background-color: var(--secundario);
+    font-size: 3rem;
+    color: var(--oscuro)    ;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    border-radius: 5rem;
+    text-decoration: none;
+}

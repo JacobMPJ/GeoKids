@@ -24,7 +24,9 @@ h1 {
 h2 {
     font-size: 2.8rem;
 }
-
+img{
+    width: 100%;
+}
 h1,h2 {
     text-align: center;
     font-family: 'Krub', sans-serif;
@@ -42,25 +44,28 @@ p {
     height: 3.5rem;
 }
 
-.nav-bg {
-    background-color: var(--nav);
-}
-
 .contenedor {
     width: 120 rem;
     margin: 0 auto ;
 }
-
 .nav {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    background-color: var(--nav);
 }
-
+@media (min-width: 768px){ /*me para una tablet aprox*/
+    .nav {
+        flex-direction: row;
+    }
+}
 .nav a {
+    display: block;
+    text-align: center;
     color: var(--blanco);
     text-decoration: none;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: bold;
     padding: 1rem;
 }
 
@@ -74,11 +79,21 @@ p {
     text-align: center;
 }
 
+.contenido__logo{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
 .logo-img {
     text-align: center;
     /* Centra el contenido horizontalmente */
     display: block;
     /* Hace que el enlace ocupe el ancho completo del contenedor */
+}
+@media (min-width: 768px) {
+    .logo-img{   
+        width: min(50rem, 100%);
+    }
 }
 
 .footer {

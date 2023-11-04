@@ -49,6 +49,9 @@ img{
     max-width: 120 rem;
     margin: 0 auto ;
 }
+.main{
+    padding-bottom: 10rem;
+}
 /*Navegacion*/
 .nav {
     display: flex;
@@ -70,6 +73,7 @@ img{
     font-weight: bold;
     padding: 1rem;
 }
+
 .nav a:hover {
     background-color: var(--secundario);
     color: var(--oscuro);
@@ -145,6 +149,7 @@ img{
     width: 80%;
     text-align: center;
     border: none;
+    transition: background-color .3s ease;
 }
 @media (min-width: 768px){
     .boton {
@@ -153,4 +158,6 @@ img{
 }
 .boton:hover {
   cursor: pointer;   
+  background-color: var(--secundario);
+  font-size: 2.5rem;
 }

@@ -141,6 +141,7 @@ img{
     width: 80%;
     text-align: center;
     border: none;
+    transition: background-color .3s ease;
 }
 
 .comenzar a{
@@ -154,5 +155,7 @@ img{
 }
 
 .boton:hover {
-  cursor: pointer;   
+  cursor: pointer;
+  background-color: var(--secundario);
+  font-size: 2.5rem;
 }

@@ -92,7 +92,7 @@ p {
 }
 @media (min-width: 768px) {
     .logo-img{   
-        width: min(50rem, 100%);
+        width: min(40rem, 100%);
     }
 }
 

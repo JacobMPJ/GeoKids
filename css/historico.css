@@ -75,21 +75,7 @@ img{
     background-color: var(--secundario);
     color: var(--oscuro);
 }
-
-/*Seccion principal*/
-.detalles__ejercicio{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2rem;
-}
-
-.detalles__ejercicio label{
-    padding: 2rem;
-    font-family: var(--fuentePrincipal);
-    font-weight: bold;
-}
-
-.contenido__juegos{
+.contenido__score{
     display: flex;
     justify-content: center;
     padding: 3rem;
